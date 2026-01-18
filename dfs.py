@@ -25,7 +25,7 @@ X_train, X_test, y_train, y_test = train_test_split(
     X, labels, test_size=0.2, random_state=40
 )
 
-xgb.fit(X_train, labels)
+xgb.fit(X_train, y_train)
 
 
 # model training
